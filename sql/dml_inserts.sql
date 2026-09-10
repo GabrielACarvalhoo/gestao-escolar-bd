@@ -1,2 +1,2 @@
-   -- DML - Inserir os Dados 
-   -- Sistema de Gestão Escolar
+-- DML — inserção de dados (INSERT)
+-- Sistema de Gestão Escolar
