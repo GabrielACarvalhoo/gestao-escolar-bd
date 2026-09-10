@@ -54,8 +54,26 @@ Usamos o [Project board](https://github.com/users/GabrielACarvalho/projects/5) d
 | **Concluídas** | Validado e já incorporado ao trabalho |
 
 Cada tarefa é uma **Issue**. O resultado de cada uma fica documentado como **comentário** na própria issue (ex: a decisão do tema está comentada na issue #1).
-
 ## 👥 Como contribuir
 
-1. Confira as issues disponíveis na coluna "Tarefas em Tiragem"
-2
+Não precisa saber nada de GitHub antes — é só seguir esse passo a passo:
+
+1. **Entre no repositório**: https://github.com/GabrielACarvalhoo/gestao-escolar-bd
+
+2. Clique na aba **Projects** (no topo da página) e entre no board **"Fases-do-projeto"**.
+
+3. Olhe a coluna **"Tarefas em Tiragem"** — são as tarefas disponíveis, ainda não pegas por ninguém. Escolha uma que faça sentido pra você.
+
+4. Clique no card da tarefa pra abrir ela. Vai abrir a issue com a explicação completa (objetivo, o que fazer, quando está pronto).
+
+5. No lado direito, em **"Assignees"**, clique em **"Assign yourself"** — isso avisa o grupo que você pegou essa tarefa.
+
+6. Arraste o card da coluna "Tarefas em Tiragem" pra **"Em andamento"** (clica e segura, arrasta).
+
+7. Faça o que a tarefa pede. Se for só texto/decisão, escreva o resultado como **comentário** dentro da própria issue (tem uma caixa de texto embaixo, "Add a comment").
+
+8. Terminou? Arraste o card pra **"Em análise"** — aí alguém do grupo confere antes de considerar 100% pronto.
+
+9. Se a tarefa envolver arquivo (tipo o script SQL), não precisa saber usar git pelo terminal: dá pra **adicionar ou editar arquivos direto pelo site do GitHub** (tem um botão "Add file" no repositório). Se preferir usar git normal, é só perguntar que a gente ajuda.
+
+Qualquer dúvida no meio do caminho, chama no grupo — não tem problema travar em alguma parte, é o primeiro contato de todo mundo com isso.
