@@ -1,0 +1,2 @@
+   -- DDL — criação das tabelas
+   -- Sistema de Gestão Escolar
