@@ -77,3 +77,17 @@ Não precisa saber nada de GitHub antes — é só seguir esse passo a passo:
 9. Se a tarefa envolver arquivo (tipo o script SQL), não precisa saber usar git pelo terminal: dá pra **adicionar ou editar arquivos direto pelo site do GitHub** (tem um botão "Add file" no repositório). Se preferir usar git normal, é só perguntar que a gente ajuda.
 
 Qualquer dúvida no meio do caminho, chama no grupo — não tem problema travar em alguma parte, é o primeiro contato de todo mundo com isso.
+
+
+## 📁 Estrutura do repositório
+
+```
+gestao-escolar-bd/
+├── README.md
+├── docs/
+│   └── der-conceitual.png
+└── sql/
+    ├── ddl.sql              # criação das tabelas
+    ├── dml_inserts.sql      # inserts de dados
+    └── dml_consultas.sql    # selects e updates
+```
