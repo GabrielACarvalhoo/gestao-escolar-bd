@@ -1,3 +1,6 @@
+CREATE DATABASE IF NOT EXISTS gestao_escolar;
+USE gestao_escolar;
+
 -- DDL do banco gestao_escolar (baseado no modelo logico)
 
 -- Usuario
