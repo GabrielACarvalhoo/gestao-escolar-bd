@@ -1,2 +1,2 @@
 -- DML — consultas e atualizações (SELECT, UPDATE)
--- Sistema de Gestão Escolar
+-- Sistema de Gestão Escolar.
