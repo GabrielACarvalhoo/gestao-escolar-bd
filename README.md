@@ -2,9 +2,17 @@
 
 Trabalho da disciplina **Laboratório de Banco de Dados** — proposta de sistema de banco de dados com modelagem conceitual, lógica, física e implementação em MySQL.
 
+## 👥 Integrantes do grupo (Grupo 6)
+
+- Gabriel Andrade Carvalho
+- Guilherme Bernardes Camilo
+- Júlio César Nascimento de Lisboa
+- Erick Gabriel Cardoso Oliveira
+- Gabriel Ribeiro Gomes
+
 ## 📋 Sobre o projeto
 
-Sistema de matrícula e gestão escolar: alunos, turmas organizadas por série, disciplinas, professores (incluindo professor regente), avaliações (notas) e responsáveis pelos alunos.
+Sistema de matrícula e gestão escolar: alunos, turmas organizadas por série, disciplinas, professores e avaliações (notas), além dos responsáveis pelos alunos.
 
 ## 🎯 Objetivo do trabalho
 
@@ -43,18 +51,19 @@ Desenvolver uma proposta de sistema de banco de dados, com modelagem (conceitual
 
 ## 🗂️ Como estamos organizando o trabalho
 
-Usamos o [Project board](https://github.com/users/GabrielACarvalho/projects/5) deste repositório pra dividir e acompanhar as tarefas. Fluxo das colunas:
+Usamos o [Project board](https://github.com/users/GabrielACarvalhoo/projects/5) deste repositório pra dividir e acompanhar as tarefas. Fluxo das colunas:
 
 | Coluna | O que significa |
 |---|---|
 | **Criação de Tarefas** | Backlog — tarefas propostas, ainda não iniciadas |
-| **Tarefas em Tiragem** | Disponíveis pra alguém pegar |
+| **Tarefas em Triagem** | Disponíveis pra alguém pegar |
 | **Em andamento** | Alguém já está trabalhando nisso |
 | **Em análise** | Feito, passando por revisão antes de considerar pronto |
 | **Concluídas** | Validado e já incorporado ao trabalho |
 
 Cada tarefa é uma **Issue**. O resultado de cada uma fica documentado como **comentário** na própria issue (ex: a decisão do tema está comentada na issue #1).
-## 👥 Como contribuir
+
+## 🤝 Como contribuir
 
 Não precisa saber nada de GitHub antes — é só seguir esse passo a passo:
 
@@ -62,13 +71,13 @@ Não precisa saber nada de GitHub antes — é só seguir esse passo a passo:
 
 2. Clique na aba **Projects** (no topo da página) e entre no board **"Fases-do-projeto"**.
 
-3. Olhe a coluna **"Tarefas em Tiragem"** — são as tarefas disponíveis, ainda não pegas por ninguém. Escolha uma que faça sentido pra você.
+3. Olhe a coluna **"Tarefas em Triagem"** — são as tarefas disponíveis, ainda não pegas por ninguém. Escolha uma que faça sentido pra você.
 
 4. Clique no card da tarefa pra abrir ela. Vai abrir a issue com a explicação completa (objetivo, o que fazer, quando está pronto).
 
 5. No lado direito, em **"Assignees"**, clique em **"Assign yourself"** — isso avisa o grupo que você pegou essa tarefa.
 
-6. Arraste o card da coluna "Tarefas em Tiragem" pra **"Em andamento"** (clica e segura, arrasta).
+6. Arraste o card da coluna "Tarefas em Triagem" pra **"Em andamento"** (clica e segura, arrasta).
 
 7. Faça o que a tarefa pede. Se for só texto/decisão, escreva o resultado como **comentário** dentro da própria issue (tem uma caixa de texto embaixo, "Add a comment").
 
@@ -78,16 +87,19 @@ Não precisa saber nada de GitHub antes — é só seguir esse passo a passo:
 
 Qualquer dúvida no meio do caminho, chama no grupo — não tem problema travar em alguma parte, é o primeiro contato de todo mundo com isso.
 
-
 ## 📁 Estrutura do repositório
 
 ```
 gestao-escolar-bd/
 ├── README.md
 ├── docs/
-│   └── der-conceitual.png
+│   ├── README.md
+│   ├── ModeloConceitual.pdf
+│   ├── ModeloConceitual.png
+│   ├── ModelagemLogica.pdf
+│   └── ModelagemFisica.pdf
 └── sql/
-    ├── ddl.sql              # criação das tabelas
-    ├── dml_inserts.sql      # inserts de dados
-    └── dml_consultas.sql    # selects e updates
+    ├── ddl.sql
+    ├── dml_inserts.sql
+    └── dml_consultas.sql
 ```
